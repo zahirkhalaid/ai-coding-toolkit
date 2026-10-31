@@ -1,0 +1,12 @@
+# Global settings
+
+capital: 10000.0
+risk_per_trade: 0.01
+max_drawdown: 0.20
+default_strategy: "all"
+data_dir: "./data"
+results_dir: "./results"
+
+# Logging
+log_level: "INFO"
+log_file: "./results/backtest.log"

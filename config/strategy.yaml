@@ -1,0 +1,14 @@
+# Example ICT FVG strategy configuration
+
+name: "ict_fvg_example"
+strategy: "fvg"
+symbol: "XAUUSD"
+timeframe: "M15"
+initial_capital: 10000.0
+risk_per_trade: 0.01
+
+# Data
+data_file: "data/sample_candles.csv"
+
+# Output
+results_file: "results/ict_fvg_results.json"
